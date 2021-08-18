@@ -28,17 +28,17 @@ tr:nth-child(even) {
 }
 header {
   background-color: #666;
-  padding: 100%;
+  padding: 30px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 nav {
   float: left;
-  width: 100%;
-  height: 100%; /* only for demonstration, should be removed */
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 100px;
+  padding: 20px;
 }
 
 /* Style the footer */

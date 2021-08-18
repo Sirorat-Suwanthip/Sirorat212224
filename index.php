@@ -45,12 +45,6 @@ header {
   color: white;
 }
 
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
  </style>
  <body>
 <header>

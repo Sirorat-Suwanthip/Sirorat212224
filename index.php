@@ -12,7 +12,21 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 header {
   background-color: #666;
   padding: 30px;
@@ -49,9 +63,11 @@ footer {
 </header>
    
 <nav>
-    <iframe src="https://thingspeak.com/channels/1458416/maps/channel_show" width="450" height="260"></iframe>
-<iframe src="https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
-<iframe src="https://thingspeak.com/channels/1458416/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
+    <tr>
+      <td><iframe src="https://thingspeak.com/channels/1458416/maps/channel_show" width="450" height="260"></iframe></td>
+      <td><iframe src="https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe></td>
+      <td><iframe src="https://thingspeak.com/channels/1458416/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe></td>
+    </tr>
 <?php
  $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
  $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt');

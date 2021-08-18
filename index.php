@@ -15,4 +15,5 @@ function timedRefresh(timeoutPeriod) {
 </script>
  <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
  <br> <?php echo " Temperature is = ".$Humidity ?> </br>
+ 
  </body>

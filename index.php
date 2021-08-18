@@ -79,7 +79,6 @@ function timedRefresh(timeoutPeriod) {
     setTimeout("location.reload(true);",timeoutPeriod);
 }
 </script>
-</nav>
    <table>
    <tr>
      <td>My home location</td>
@@ -87,7 +86,7 @@ function timedRefresh(timeoutPeriod) {
      <td><br> <?php echo " Temperature is = ".$Humidity ?> </br></td>
     </tr>
    </table>
-
+</nav>
 <footer>
   <p>Happy Happy</p>
 </footer>

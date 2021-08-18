@@ -30,7 +30,7 @@ tr:nth-child(even) {
 header {
   background-color: #666;
   padding: 30px;
-   width: 100%;
+   width =450 px ;
   text-align: center;
   font-size: 35px;
   color: white;

@@ -19,7 +19,6 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
@@ -59,7 +58,7 @@ footer {
  </style>
  <body>
 <header>
-  <h2>Sirorat </h2>
+  <h2>Sirorat Suwanthip 62109459</h2>
 </header>
    
 <nav>

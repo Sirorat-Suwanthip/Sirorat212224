@@ -28,7 +28,7 @@ tr:nth-child(even) {
 }
 header {
   background-color: #666;
-  padding: 100@;
+  padding: 100%;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -51,7 +51,7 @@ footer {
 
 @media (max-width: 600px) {
   nav, article {
-    width: 100%;
+    width: 8px;
     height: auto;
   }
 }

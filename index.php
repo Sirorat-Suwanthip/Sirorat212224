@@ -20,7 +20,7 @@ table {
 }
 
 td, th {
-  text-align: left;
+  text-align: center ;
   padding: 8px;
 }
 
@@ -30,6 +30,7 @@ tr:nth-child(even) {
 header {
   background-color: #666;
   padding: 30px;
+  width: 30%;
   text-align: center;
   font-size: 35px;
   color: white;
@@ -37,6 +38,7 @@ header {
   footer {
   background-color: #777;
   padding: 10px;
+    width: 30%;
   text-align: center;
   color: white;
 }

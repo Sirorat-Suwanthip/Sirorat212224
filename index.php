@@ -38,7 +38,7 @@ nav {
   width: 100%;
   height: 100%; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 70px;
+  padding: 100px;
 }
 
 /* Style the footer */

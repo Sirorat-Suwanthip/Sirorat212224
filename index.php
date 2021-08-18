@@ -38,13 +38,13 @@ nav {
   width: 100%;
   height: 100%; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 20px;
+  padding: 100%;
 }
 
 /* Style the footer */
 footer {
   background-color: #777;
-  padding: 10px;
+  padding: 100%;
   text-align: center;
   color: white;
 }

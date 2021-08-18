@@ -13,6 +13,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 table {
+  text-align: center;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 30%;
@@ -25,6 +26,7 @@ td, th {
 }
 
 tr:nth-child(even) {
+  
   background-color: #dddddd;
 }
 header {

@@ -34,12 +34,6 @@ header {
   font-size: 35px;
   color: white;
 }
-nav {
-  width: 30%;
-  height: 300px; 
-  background: #ccc;
-  padding: 20px;
-}
 
 @media (max-width: 600px) {
   nav, article {

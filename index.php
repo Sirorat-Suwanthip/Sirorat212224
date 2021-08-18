@@ -5,8 +5,8 @@
 <iframe src="https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
 <iframe src="https://thingspeak.com/channels/1458416/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
 <?php
- $Temperature = file_get_contents('https://thingspeak.com/channels/1458416/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15');
- $Humidity = file_get_contents('https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15');
+ $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
+ $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt'');
 ?>
 <script type="text/JavaScript">
 function timedRefresh(timeoutPeriod) {

@@ -50,7 +50,7 @@ footer {
 
 @media (max-width: 600px) {
   nav, article {
-    width: 8px;
+    width: 100%;
     height: auto;
   }
 }

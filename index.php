@@ -34,9 +34,8 @@ header {
   color: white;
 }
 nav {
-  float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px; 
   background: #ccc;
   padding: 20px;
 }
@@ -44,7 +43,7 @@ nav {
 /* Style the footer */
 footer {
   background-color: #777;
-  padding: 100%;
+  padding: 10px;
   text-align: center;
   color: white;
 }

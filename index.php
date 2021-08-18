@@ -63,6 +63,11 @@ footer {
   }
 }
  </style>
+  
+<header>
+  <h2>Sirorat </h2>
+</header>
+
  
  <article>
     <h1>London</h1>
@@ -71,12 +76,7 @@ footer {
   </article>
    
 
-</head>
 <body>
-
-<header>
-  <h2>Sirorat </h2>
-</header>
 
 <footer>
   <p>Happy Happy</p>

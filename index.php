@@ -34,6 +34,12 @@ header {
   font-size: 35px;
   color: white;
 }
+  footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 
 @media (max-width: 600px) {
   nav, article {

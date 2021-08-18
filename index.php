@@ -22,8 +22,8 @@ header {
 }
 nav {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 100%;
+  height: 100%; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }

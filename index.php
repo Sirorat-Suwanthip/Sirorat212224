@@ -67,7 +67,7 @@ footer {
 <header>
   <h2>Sirorat </h2>
 </header>
-<section>
+
  <article>
     <iframe src="https://thingspeak.com/channels/1458416/maps/channel_show" width="450" height="260"></iframe>
 <iframe src="https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
@@ -84,7 +84,7 @@ function timedRefresh(timeoutPeriod) {
  <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
  <br> <?php echo " Temperature is = ".$Humidity ?> </br>
   </article>
-</section>
+
 
 <footer>
   <p>Happy Happy</p>

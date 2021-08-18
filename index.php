@@ -69,9 +69,20 @@ footer {
 </header>
 <section>
  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <iframe src="https://thingspeak.com/channels/1458416/maps/channel_show" width="450" height="260"></iframe>
+<iframe src="https://thingspeak.com/channels/1458416/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
+<iframe src="https://thingspeak.com/channels/1458416/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" width="450" height="260"></iframe>
+<?php
+ $Temperature = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/1/last.txt');
+ $Humidity = file_get_contents('https://api.thingspeak.com/channels/1458415/fields/2/last.txt');
+?>
+<script type="text/JavaScript">
+function timedRefresh(timeoutPeriod) {
+    setTimeout("location.reload(true);",timeoutPeriod);
+}
+</script>
+ <br> <?php echo "Humidity is = ".$Temperature ?> </br> 
+ <br> <?php echo " Temperature is = ".$Humidity ?> </br>
   </article>
 </section>
 

@@ -15,7 +15,8 @@ body {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 30%;
+  height: 300px;
 }
 
 td, th {
@@ -38,14 +39,6 @@ nav {
   height: 300px; 
   background: #ccc;
   padding: 20px;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
 }
 
 @media (max-width: 600px) {
